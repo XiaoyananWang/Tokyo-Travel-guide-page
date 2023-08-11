@@ -1,37 +1,111 @@
 body {
-  margin: 0;
   text-align: center;
+  margin: 0;
+  min-width: 1119px;
+  font-family: "Roboto", sans-serif;
 }
 
-img {
-  width: 100px;
-}
-
-.hero {
-  background: url(images/tokyo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 720px;
-  height: 343px;
-  margin-left: auto;
-  margin-right: auto;
+#hero {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(images/tokyo.jpg);
+  height: 700px;
 }
 
-.title {
-  color: #fff;
-  font-family: Arial;
-  font-size: 32px;
-  font-style: normal;
+.hero-title {
+  color: #132641;
+  background-color: #c1a297;
+  border-radius: 15px;
+  padding: 0px 8px 3px 8px;
+  opacity: 0.88;
   font-weight: 700;
-  line-height: normal;
+}
+
+.hero-subtitle {
+  color: #132641;
+  background-color: #c1a297;
   border-radius: 10px;
-  background: #1d3557;
-  width: 225px;
-  height: 42px;
+  padding: 0px 8px 3px 8px;
+  opacity: 0.88;
+  margin: 50px 50px 0 50px;
+  font-weight: 700;
+}
+
+#activities {
+  background: #afc6d3;
+  padding-bottom: 30px;
+}
+
+.sub-title {
+  margin: 0;
+  padding: 30px 0 30px 30px;
+  text-align: start;
+  font-weight: 700;
+  color: #132641;
+  background: #afc6d3;
+}
+
+.activity-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #132641;
+  font-weight: 400;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.activity-img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.button {
+  background: #63a9cb;
+  border-radius: 10px;
+  width: 100px;
+  padding: 3px 0 3px 0;
+}
+
+.footer {
+  background: #fff;
+  padding: 0 0 50px 0;
+
+}
+
+#footer-word {
+  margin: 0;
+}
+
+#avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.card {
+  background: #ffe5d9;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  height: 294px;
   margin-left: auto;
   margin-right: auto;
-  
+  padding: 0 20px 0 20px;
+  border-bottom: 15px #c1a297 solid;
+  border-radius: 10px;
 }
